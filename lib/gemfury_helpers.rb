@@ -1,5 +1,4 @@
 require "gemfury_helpers/version"
-
 require "bundler"
 
 module GemfuryHelpers

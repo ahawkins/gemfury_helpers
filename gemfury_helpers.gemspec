@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = GemfuryHelpers::VERSION
 
   gem.add_dependency "bundler"
+  gem.add_dependency "gemfury", "~> 0.4"
 end

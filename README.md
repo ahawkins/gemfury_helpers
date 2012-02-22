@@ -9,7 +9,7 @@ In your Rakefile
 ```ruby
 require 'gemfury_helper'
 
-GemfuryHelpers::GemHelper.install_tasks
+GemfuryHelpers::GemHelper.install
 ```
 
 ## Usage

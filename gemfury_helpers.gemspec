@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["me@broadcastingadam.com"]
   gem.description   = %q{Bundler Gem Helpers for Gemfury}
   gem.summary       = ""
-  gem.homepage      = ""
+  gem.homepage     = "https://github.com/threadedlabs/gemfury_helpers"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")

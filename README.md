@@ -7,7 +7,7 @@ gem 'gemfury_helpers'
 In your Rakefile
 
 ```ruby
-require 'gemfury_helper'
+require 'gemfury_helpers'
 
 GemfuryHelpers::GemHelper.install_tasks
 ```

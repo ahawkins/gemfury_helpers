@@ -12,6 +12,15 @@ require 'gemfury_helpers'
 GemfuryHelpers::GemHelper.install_tasks
 ```
 
+If you want to push gems to your collaborator's account:
+
+```ruby
+require 'gemfury_helpers'
+
+# This is the same as issuing 'fury push your.gem --as your_collaborator'
+GemfuryHelpers::GemHelper.install_tasks(:account => 'your_collaborator' )
+```
+
 ## Usage
 
 **Make sure gemfury is setup before hand!**
